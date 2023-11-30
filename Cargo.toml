@@ -1,0 +1,17 @@
+[package]
+name = "foundry-git-version"
+version = "0.1.0"
+edition = "2021"
+license = "UPL-1.0"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "~4.4", default-features = false, features = [
+  "color",
+  "help",
+  "std",
+  "string",
+  "suggestions",
+  "usage",
+  "wrap_help",
+] }
